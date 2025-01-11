@@ -1,0 +1,8 @@
+logica/Alumno_.class
+persistencia/AlumnoJpaController.class
+com/mauroheinrich/jpaprueba/JpaPrueba.class
+persistencia/exceptions/NonexistentEntityException.class
+persistencia/ControladoraPersistencia.class
+persistencia/exceptions/IllegalOrphanException.class
+persistencia/exceptions/PreexistingEntityException.class
+logica/Alumno.class

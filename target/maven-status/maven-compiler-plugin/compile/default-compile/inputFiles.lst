@@ -1,0 +1,7 @@
+/home/mauroheinrich/NetBeansProjects/JpaPrueba/src/main/java/persistencia/exceptions/IllegalOrphanException.java
+/home/mauroheinrich/NetBeansProjects/JpaPrueba/src/main/java/com/mauroheinrich/jpaprueba/JpaPrueba.java
+/home/mauroheinrich/NetBeansProjects/JpaPrueba/src/main/java/persistencia/exceptions/PreexistingEntityException.java
+/home/mauroheinrich/NetBeansProjects/JpaPrueba/src/main/java/persistencia/exceptions/NonexistentEntityException.java
+/home/mauroheinrich/NetBeansProjects/JpaPrueba/src/main/java/logica/Alumno.java
+/home/mauroheinrich/NetBeansProjects/JpaPrueba/src/main/java/persistencia/AlumnoJpaController.java
+/home/mauroheinrich/NetBeansProjects/JpaPrueba/src/main/java/persistencia/ControladoraPersistencia.java
