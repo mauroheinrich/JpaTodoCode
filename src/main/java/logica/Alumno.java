@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 @Entity
@@ -22,16 +23,29 @@ public class Alumno implements Serializable {
     
     @Temporal(TemporalType.DATE)
     private Date fechaNAc;
-
+    
+    @OneToOne
+    private Carrera  carre;
     public Alumno() {
     }
 
-    public Alumno(int id, String nombre, String apellido, Date fechaNAc) {
+    public Alumno(int id, String nombre, String apellido, Date fechaNAc, Carrera carre) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.fechaNAc = fechaNAc;
+        this.carre = carre;
     }
+
+    public Carrera getCarre() {
+        return carre;
+    }
+
+    public void setCarre(Carrera carre) {
+        this.carre = carre;
+    }
+
+   
 
     public int getId() {
         return id;
