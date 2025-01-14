@@ -2,6 +2,7 @@
 package logica;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import persistencia.ControladoraPersistencia;
 
 
@@ -54,5 +55,27 @@ public class Controladora {
     public ArrayList<Carrera> traerListaCarreras(){
         return controlPersis.traerListaCarreras();
     }
+    //Materia
     
+    public void crearMateria(Materia mate){
+        controlPersis.crearMateria(mate);
+    
+    }
+    
+    public void eliminarcrearMateria(int id){
+        controlPersis.eliminarMateria(id);
+    }
+    
+    public void editarMateria(Materia mate){
+        controlPersis.editarMateria(mate);
+    }
+    
+   public Materia traerMateria(int id){
+        return controlPersis.traerMateria(id);
+   }
+    
+        
+    public LinkedList<Materia> traerListaMaterias(){
+        return controlPersis.traerListaMaterias();
+    }
 }
