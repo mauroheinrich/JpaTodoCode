@@ -25,8 +25,8 @@ public class JpaPrueba {
        
        
        //Creacion de Materia
-       Materia mate1 = new Materia(21,"Introduccion a la Programacion", "Cuatrimestral", carre);
-       Materia mate2 = new Materia(22,"Programacion I", "Anual", carre);
+       Materia mate1 = new Materia(20,"Introduccion a la Programacion", "Cuatrimestral", carre);
+       Materia mate2 = new Materia(25,"Programacion I", "Anual", carre);
        
        //Guardar Materia en BD
        control.crearMateria(mate1);
