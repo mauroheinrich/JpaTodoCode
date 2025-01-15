@@ -13,7 +13,7 @@ public class JpaPrueba {
     public static void main(String[] args) {
        Controladora control = new Controladora();
        
-       
+      
        //Crear lista de materias y agregar
        LinkedList <Materia> listaMaterias = new LinkedList <Materia>();
        
@@ -47,11 +47,18 @@ public class JpaPrueba {
        control.crearAlumno(al);
        
        //Ver resultado
-        System.out.println("--------------------------");
-        System.out.println("-------------DATOS ALUMNO-------------");
-        Alumno alu = control.traerAlumno(23);
-        System.out.println("Alumno: "+ alu.getNombre()+ " "+ alu.getApellido());
-        System.out.println("Cursa la Carrera: "+ alu.getCarre().getNombre());
+       System.out.println("--------------------------");
+       System.out.println("-------------DATOS ALUMNO-------------");
+       Alumno alu = control.traerAlumno(23);
+       System.out.println("Alumno: "+ alu.getNombre()+ " "+ alu.getApellido());
+       System.out.println("Cursa la Carrera: "+ alu.getCarre().getNombre());
+       
+       // Listar las materias que cursa el alumno
+       System.out.println("Cursa las siguientes Materias: ");
+       for (Materia materia : alu.getCarre().getListaMaterias()) {
+           System.out.println("- " + materia.getNombre());
+       }
+      
     }
     
 }
