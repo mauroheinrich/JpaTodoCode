@@ -89,6 +89,7 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo LICENSE pa
   <a href="https://fb.com/mauroheinrich" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mauroheinrich" height="30" width="40" /></a>
   <a href="https://instagram.com/mauroheinrich" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mauroheinrich" height="30" width="40" /></a>
   <a href="https://discord.gg/mauroheinrich" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="mauroheinrich" height="30" width="40" /></a>
+  <a href="https://wa.me/5493436201089" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="WhatsApp" height="30" width="40" /></a>
 </p>
 
 
